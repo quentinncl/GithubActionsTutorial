@@ -16,6 +16,13 @@
     "@babel/preset-env": "^7.8.7",
     "@babel/register": "^7.8.7",
     "chai": "^4.2.0",
+    "husky": "^4.3.0",
     "mocha": "^6.2.0"
+  },
+  "dependencies": {},
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
+    }
   }
 }
